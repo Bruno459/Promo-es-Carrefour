@@ -1,0 +1,59 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(100, 95, 95, 0.521);
+    color: rgba(76, 0, 255, 0.616);
+}
+.c{
+    width: 215px;
+    height: 190px;
+}
+
+.a{
+    width: 180px;
+    height: 280px;
+}
+
+.b{
+    height: 180px;
+    width: 180px;
+}
+
+.d{
+    height: 230px;
+    width: 240px;
+}
+
+.cabecalho .logo{
+    width: 480px;
+    height: 440px;
+    padding-left: 425px;
+}
+
+body::before{
+	content: "" ;
+	background-image: url(../imagens/fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 270%;
+	height: 315%;
+	position: absolute;
+	z-index: -1;
+    max-width: 1350px;
+	opacity: 0.3;}
+
+    ul{
+        list-style: none;
+    }
+
+    .titulo{
+        margin: 100px;
+        display: flex;
+        justify-content: center;
+        font-size: 90px;
+        color: #000
+    }
+
+    .descricao-da-promocao{
+        font-size: 30px;
+    }

@@ -1,0 +1,26 @@
+@media (max-width: 900px){
+    .cabecalho .logo{
+        padding-left: 10px;
+    }
+
+    body::before{
+        content: "" ;
+        background-image: url(../imagens/fundo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 150%;
+        height: 330%;
+        position: absolute;
+        z-index: -1;
+        max-width: 1350px;
+        opacity: 0.3;}
+
+        .titulo{
+            margin: 100px;
+            display: flex;
+            justify-content: center;
+            font-size: 65px;
+            color: #000
+}
+}
